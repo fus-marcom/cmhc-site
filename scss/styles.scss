@@ -1,0 +1,96 @@
+// Colors
+$fus-yellow: #ffc658;
+$fus-light-blue: #8e9fbc;
+$fus-dark-blue: #1f2a44;
+$fus-green: #21412a;
+$fus-gold: #998643;
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: #fafafa;
+ }
+
+ main {
+   flex: 1 0 auto;
+   background-color: #fafafa;
+ }
+
+ nav {
+  background-color: #fff;
+  height: 77px;
+  line-height: 77px;
+  border-bottom: 3px solid #998643;
+  z-index: 0;
+
+  ul {
+    li {
+      a{
+        color: rgba(0, 0, 0, 0.87);
+      }
+    }
+  }
+
+  .side-nav {
+    .logo {
+      height: 80px;
+      :hover {
+        background-color: #fff;
+      }
+    }
+  }
+ }
+
+ nav .brand-logo img {
+   height: 68px;
+   margin-top: 5px;
+ }
+
+
+ .heading {
+   font-size: 30px;
+ }
+
+.required-text {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.select-wrapper input.select-dropdown {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+label, .input-field label {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+footer {
+  border-top: 5px solid $fus-gold;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: $fus-green !important;
+  .row {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
+
+.social {
+  a {
+    svg {
+      // SVG Icon Color
+      fill: #fff;
+      // SVG Icon Size
+      width: 42px;
+    }
+  }
+}
+
+.footer-copyright {
+  background-color: darken($fus-green, 2%) !important;
+
+  a {
+    margin-right: 10px;
+  }
+}
