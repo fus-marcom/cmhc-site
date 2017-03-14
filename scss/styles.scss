@@ -47,22 +47,14 @@ body {
    margin-top: 5px;
  }
 
-
  .heading {
    font-size: 30px;
  }
 
-.required-text {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.54) !important;
-}
-
-.select-wrapper input.select-dropdown {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-label, .input-field label {
-  color: rgba(0, 0, 0, 0.54);
+#home {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://photos-2.dropbox.com/t/2/AAD0hNHXEPwwbWtWIayDd75QL7_uSsGcyW5haVBjj-IlIQ/12/568244976/jpeg/32x32/3/1489539600/0/2/FUS0514-0723.jpg/ELyd3r4EGNVMIAIoAg/YdHbQZxqVY-bgBAeIHEJaCKdbEhx4YJ_1hOvjhiaMUU%2C_qMsoO-_NpGIOVSkC4FWlMzwFummmcKjM628MRt2mDM%2CSI9sycpZJTMOEj7hLIbYd7RmBKUshuxo8CfJ9vX32vY?dl=0&size=2048x1536&size_mode=3);
+  background-attachment: fixed;
+  min-height: 90vh;
 }
 
 footer {
