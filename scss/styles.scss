@@ -5,6 +5,7 @@ $fus-light-blue: #8e9fbc;
 $fus-dark-blue: #1f2a44;
 $fus-green: #21412a;
 $fus-gold: #998643;
+$black-87: rgba(0, 0, 0, .87);
 
 body {
    display: flex;
@@ -36,7 +37,7 @@ body {
   .side-nav {
     .logo {
       height: 80px;
-      :hover {
+      &:hover {
         background-color: #fff;
       }
     }
@@ -56,6 +57,13 @@ body {
   font-weight: 500;
 }
 
+.hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
  .btn {
    background-color: $fus-yellow-alt;
    &:hover, &:focus {
@@ -64,12 +72,33 @@ body {
 
  }
 
+ .btn-inverse {
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+  transition: all 0.3s;
+  font-size: 21px;
+
+  &:hover, &:focus {
+    background-color: #fff;
+    color: $black-87;
+  }
+}
+
 #home {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/classroom-2000w.jpg');
   background-attachment: fixed;
   min-height: 90vh;
   background-position-x: center;
   background-size: cover;
+}
+
+#quote-banner {
+  background-color: $fus-dark-blue;
+}
+
+#alumni {
+  background-color: $fus-yellow-alt;
 }
 
 footer {

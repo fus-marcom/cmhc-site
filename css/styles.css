@@ -18,7 +18,7 @@ nav {
     color: rgba(0, 0, 0, 0.87); }
   nav .side-nav .logo {
     height: 80px; }
-    nav .side-nav .logo :hover {
+    nav .side-nav .logo:hover {
       background-color: #fff; }
 
 nav .brand-logo img {
@@ -31,10 +31,26 @@ nav .brand-logo img {
 .bold {
   font-weight: 500; }
 
+.hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  width: 50%;
+  display: block;
+  margin: 0 auto; }
+
 .btn {
   background-color: #ffb41f; }
   .btn:hover, .btn:focus {
     background-color: #ffc658; }
+
+.btn-inverse {
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+  transition: all 0.3s;
+  font-size: 21px; }
+  .btn-inverse:hover, .btn-inverse:focus {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87); }
 
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/classroom-2000w.jpg");
@@ -42,6 +58,12 @@ nav .brand-logo img {
   min-height: 90vh;
   background-position-x: center;
   background-size: cover; }
+
+#quote-banner {
+  background-color: #1f2a44; }
+
+#alumni {
+  background-color: #ffb41f; }
 
 footer {
   border-top: 5px solid #998643;
