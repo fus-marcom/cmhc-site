@@ -91,10 +91,22 @@ body {
   min-height: 90vh;
   background-position-x: center;
   background-size: cover;
+
+  .arrow-row {
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+  }
 }
 
 #quote-banner {
   background-color: $fus-dark-blue;
+}
+
+#why-franciscan {
+  .card-title {
+    font-weight: 400;
+  }
 }
 
 #alumni {

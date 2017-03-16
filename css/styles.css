@@ -58,9 +58,16 @@ nav .brand-logo img {
   min-height: 90vh;
   background-position-x: center;
   background-size: cover; }
+  #home .arrow-row {
+    position: absolute;
+    width: 100%;
+    bottom: 8px; }
 
 #quote-banner {
   background-color: #1f2a44; }
+
+#why-franciscan .card-title {
+  font-weight: 400; }
 
 #alumni {
   background-color: #ffb41f; }
