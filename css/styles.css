@@ -12,10 +12,14 @@ nav {
   background-color: #fff;
   height: 77px;
   line-height: 77px;
-  border-bottom: 3px solid #998643;
-  z-index: 0; }
+  border-bottom: 3px solid #998643; }
   nav ul li a {
     color: rgba(0, 0, 0, 0.87); }
+  nav a.button-collapse {
+    margin-top: 11px; }
+    @media screen and (max-width: 600px) {
+      nav a.button-collapse {
+        margin-top: 5px; } }
   nav .side-nav .logo {
     height: 80px; }
     nav .side-nav .logo:hover {
@@ -62,6 +66,9 @@ nav .brand-logo img {
     position: absolute;
     width: 100%;
     bottom: 8px; }
+    @media screen and (max-height: 750px) {
+      #home .arrow-row {
+        display: none; } }
 
 #quote-banner {
   background-color: #1f2a44; }

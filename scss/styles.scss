@@ -24,13 +24,20 @@ body {
   height: 77px;
   line-height: 77px;
   border-bottom: 3px solid #998643;
-  z-index: 0;
 
   ul {
     li {
       a{
         color: rgba(0, 0, 0, 0.87);
       }
+    }
+  }
+
+  a.button-collapse {
+    margin-top: 11px;
+
+    @media screen and (max-width: 600px) {
+      margin-top: 5px;
     }
   }
 
@@ -96,6 +103,10 @@ body {
     position: absolute;
     width: 100%;
     bottom: 8px;
+
+    @media screen and (max-height: 750px) {
+      display: none;
+    }
   }
 }
 

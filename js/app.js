@@ -1,5 +1,7 @@
 $(function() {
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
   //Smooth in page navigation
   function scrollToAnchor(name){
