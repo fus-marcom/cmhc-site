@@ -19,11 +19,11 @@ plan.local(function(local) {
   local.log('Copy files to remote hosts');
   var filesToCopy = local.exec('git ls-files dist/', {silent: true});
   // rsync files to all the destination's hosts
-  local.transfer(filesToCopy, '~/www/cmhc-dist/');
+  local.transfer(filesToCopy, '~/www/counseling-dist/');
 });
 
 // run commands on remote hosts
 plan.remote(function(remote) {
   remote.log('Move folder to site root');
-  remote.exec('cp -fRu ~/www/cmhc-dist/dist/* ~/www/cmhc/');
+  remote.exec('cp -fRu ~/www/counseling-dist/dist/* ~/www/counseling/');
 });
