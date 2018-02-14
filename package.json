@@ -17,5 +17,5 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.0",
     "gulp-usemin": "^0.3.28"
-  },
+  }
 }
