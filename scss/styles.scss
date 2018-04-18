@@ -43,17 +43,31 @@ body {
 
   .side-nav {
     .logo {
-      height: 80px;
+      height: 110px;
       &:hover {
         background-color: #fff;
       }
+
+    a {
+      &:hover {
+        background-color: #fff;
+      }
+
+      img {
+        width: 100%;
+        margin: 8px 0;
+        height: 94px;
+      }
+    }
+
+
     }
   }
  }
 
  nav .brand-logo img {
-   height: 68px;
-   margin-top: 5px;
+   height: 60px;
+   margin: 8px 0 8px 8px;
  }
 
  .italic {
